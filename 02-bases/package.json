@@ -1,0 +1,21 @@
+{
+  "name": "02-bases",
+  "version": "0.0.1",
+  "description": "First app in Node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "Alexis Ortiz",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "axios": "^1.8.3",
+    "get-age": "^1.0.1",
+    "uuid": "^11.1.0"
+  }
+}
