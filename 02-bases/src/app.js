@@ -5,7 +5,8 @@
 // require('./js-foundation/02-destructuring');
 // require('./js-foundation/03-callbacks');
 //require('./js-foundation/05-factory');
-const getPokemonById = require('./js-foundation/06-promise');
+// const getPokemonById = require('./js-foundation/06-promise');
+const { buildLogger } = require('./plugins')
 
 const id = 1;
 
@@ -18,7 +19,12 @@ const id = 1;
 });*/
 
 
-getPokemonById( id )
-  .then( pokemon => console.log( pokemon ))
-  .catch( err => console.log( err ))
-  .finally( () => console.log('Finally') );
+// getPokemonById( id )
+//   .then( pokemon => console.log( pokemon ))
+//   .catch( err => console.log( err ))
+//   .finally( () => console.log('Finally') );
+
+
+const logger = buildLogger();
+logger.log('Hola mundo...');
+logger.error('Ha ocurrido un error inesperado...');
