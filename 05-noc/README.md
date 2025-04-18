@@ -11,3 +11,12 @@
 ```
 
 RUN PROJECT: `npm run start`
+
+# Structure
+your-project/
+├── src/
+│   ├── config/ : global configs like envs, axios, etc. 
+│   ├── domain/ : app rules like data origin, models, repositories, etc.
+│   │   └── use-cases : actions
+│   ├── infraestructure/ : datasource and repository implementations.
+│   └── presentation/ : services close to the user.

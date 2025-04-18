@@ -12,3 +12,8 @@ Delete version: `nvm uninstall 18`
 
 
 Execute nodemon: `npx nodemon src/app`
+
+# Enviar correos:
+* Mailgun
+* Mailchimp
+* Constant Contact
