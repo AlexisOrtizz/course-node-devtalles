@@ -3,6 +3,8 @@
 # dev
 1. Clone file .env.tamplate to .env
 2. Config enviroment variables
+3. Ejecutar el comando ```npm install```
+4. Levantar las bases de datos con el comando ```docker compose up -d```
 
 * Validate .env
 ```
