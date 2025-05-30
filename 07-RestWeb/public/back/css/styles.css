@@ -1,0 +1,14 @@
+
+h1 {
+  color: #b42828;
+  font-size: 2em;
+  text-align: center;
+  margin-top: 20px;
+}
+
+body {
+  background-color: #352424;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}

@@ -9,4 +9,3 @@ mongo/
 postgres/
 
 .env
-mongo/
