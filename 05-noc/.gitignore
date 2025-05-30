@@ -6,7 +6,7 @@ package-lock.json
 #logs
 logs/
 mongo/
-posgres/
+postgres/
 
 .env
 mongo/
