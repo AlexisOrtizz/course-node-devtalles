@@ -17,3 +17,22 @@ Execute nodemon: `npx nodemon src/app`
 * Mailgun
 * Mailchimp
 * Constant Contact
+
+# DEV
+1. Clonar el .env.template y crear el .env
+2. Ejecutar el comando ```docker compose up -d```
+
+
+Prisma
+```
+npm install prisma --save-dev
+npm install @prisma/client
+```
+```npx prisma init --datasource-provider postgresql```
+Migrate schema to db 
+```npx prisma migrate dev --name init```
+```npx prisma generate```
+
+
+Principio de ortogonalidad:
+Separar  responsabilidades.
