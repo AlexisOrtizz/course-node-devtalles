@@ -36,3 +36,11 @@ Migrate schema to db
 
 Principio de ortogonalidad:
 Separar  responsabilidades.
+
+Patron Domain-Driven Design(DDD)
+Patron repository
+
+
+
+* Production best practices: performance and reliability
+```https://expressjs.com/en/advanced/best-practice-performance.html```
