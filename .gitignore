@@ -1,1 +1,4 @@
 */node_modules/*
+
+05-noc/postgres/pg_wal/000000010000000000000003
+05-noc/postgres/global/pg_control
